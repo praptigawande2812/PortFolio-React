@@ -1,21 +1,33 @@
-import React from 'react'
+import React  from "react";
+import pdf from "../pdf/Resume.pdf";
+import hero from "./Data/hero.json";
+
 
 const Home = () => {
+ 
+
   return (
     <>
-    <div className="container Home">
-      <div className="homeleft">
-        <h1>
-          Prapti Gawande
-        </h1>
-        <a href="" className="btn btn-outline-warning">Download Resume</a>
-      </div>
-      <div className="homeright">
-        
-      </div>
-    </div>
-    </>
-  )
-}
+      <div className="container home" id="home">
+        <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
+          <h1>Prapti Gawande</h1>
 
-export default Home
+          <a
+            href={pdf}
+            download="Resume.pdf"
+            className="btn btn-outline-warning my-3"
+          >
+            Download Resume
+          </a>
+        </div>
+        <div className="right">
+          <div className="img" data-aos="fade-up-left" data-aos-duration="1000">
+            <img src={`/assets/${hero.imgSrc}`} alt="hero" />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Home;

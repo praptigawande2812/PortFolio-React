@@ -1,3 +1,7 @@
+:root{
+  --box-shadow:5px 5px 10px 5px rgb(101,175,10,0.5);
+  --bg-color:rgb(16 34 75);
+}
 body{
   background-color: rgb(11, 26, 51);
   color: white;
@@ -26,4 +30,68 @@ a{
 
 .nav_bar .nav_items:hover {
   border-bottom: 3px solid yellow;
+}
+
+/* Home Section */
+
+.home {
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home .left {
+  background-color: var(--bg-color);
+  width: 620px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(101,175,10);
+  box-shadow: var(--box-shadow);
+}
+
+.home .right .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+  /* height: 350px;
+  width: 350px; */
+}
+
+.home .right .img img {
+  height: 270px;
+  width: 270px;
+  border-radius: 100%;
+  animation-name: superman;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes superman{
+  0%{
+      border-bottom: blue;
+      transform: translate(0,0px);
+      box-shadow: 10px 10px 100px 50px blue;
+  }
+  25%{
+    border-bottom:rgb(239,244,11);
+   
+    box-shadow: 10px 10px 100px 50px rgb(239,244,11);
+  }
+  50%{
+    border-bottom:rgb(12,12,199);
+    transform: translate(0,10px);
+    box-shadow: 10px 10px 100px 50px rgb(12,12,199);
+  }
+  75%{
+    border-bottom:rgb(31, 162, 77);
+    
+    box-shadow: 10px 10px 100px 50px rgb(31, 162, 77);
+  }
+  100%{
+    border-bottom:rgb(50,55,205);
+    transform: translate(0,0);
+    box-shadow: 10px 10px 100px 50px rgb(50,55,205);
+  }
 }
