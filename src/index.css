@@ -38,7 +38,7 @@ a {
 /* Home Section */
 
 .home {
-  height: 90vh;
+  height: 80vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -164,3 +164,32 @@ a {
   width: 50px;
 
 }
+
+/* Projects */
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: rgb(19, 18, 25);
+  color:white;
+  height: 400px;
+  background-color: rgb(19, 18, 25);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), 
+                -5px -5px 15px rgba(255, 255, 255, 0.5);
+}
+
+.card .img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card .img .pimg{
+  width: 250px;
+  height: 200px;
+ 
+  border: 2px solid rgb(186, 233, 48);
+  border-radius: 10px;
+ }
