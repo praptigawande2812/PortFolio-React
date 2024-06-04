@@ -10,12 +10,15 @@ const Home = () => {
     <>
       <div className="container home" id="home">
         <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
-          <h1>Prapti Gawande</h1>
-
+        <h1 className="title">Hi, I'm Ada</h1>
+        <p className="description">
+          I'm a full-stack developer with 5 years of experience using React and
+          NodeJS. Reach out if you'd like to learn more!
+        </p>
           <a
             href={pdf}
             download="Resume.pdf"
-            className="btn btn-outline-warning my-3"
+            className="btn btn-outline-warning my-2"
           >
             Download Resume
           </a>
