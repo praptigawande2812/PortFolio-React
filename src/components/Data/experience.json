@@ -1,44 +1,63 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "date": "Sept, 2023",
+    "role": "Vice-President Of SAIT",
+    "date": "April 2024",
     "endDate": "Present",
-    "location": "CA,United State",
     "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
-    ],
-    "imageSrc": "company/google.png"
+      "Aa s VP directed club activites and meetings.",
+      "Assisted in the development and implementation of club's strategic goals."
+    ]
   },
   {
     "id": 2,
-    "role": "Software Development Engineer SDE - I",
-    "organisation": "Mirosoft",
-    "date": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
+    "role": " Joint Program Director in Events at PACE",
+
+    "date": "Sept, 2023",
+    "endDate": "Jun, 2022",
+
     "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
-    ],
-    "imageSrc": "company/microsoft.png"
+      "Organised Sthithapradnya in Prudence'23",
+      "Coordinated all the events conducted in the tenure."
+    ]
   },
   {
     "id": 3,
-    "role": "Software Development Engineer - Intern",
-    "organisation": "Netflix",
-    "date": "Apr, 2021",
-    "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
+    "role": "Club Service Director at SAIT",
+
+    "date": "Aug, 2023",
+    "endDate": "Aug, 2023",
+
     "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
-    ],
-    "imageSrc": "company/netflix.png"
+      "Conducted CS on Prompt Engineering and AI tools.",
+      "Organised Bid-2-Build a sub-event in TechFusion'23."
+    ]
+  },
+ 
+  {
+    "id": 4,
+    "role": "Program Director in Publicity at PACE",
+
+    "date": "Apr, 2023",
+    "endDate": "Jun, 2022",
+
+    "experiences": [
+      "Participated and Coordinated in intra-Campus and inter-Campus publicity of Prudence.",
+      "Conduted Prudence,CSR,GIM,etc."
+      ]
+  },
+ 
+  {
+    "id": 5,
+    "role": "Girls' Representative of IT'26",
+
+    "date": "July, 2023",
+    "endDate": "Jun, 2022",
+
+    "experiences": [
+      
+      "As a representative got the chance to represent the ideas of my classmates",
+      "Cordinated with the faculty for academic purposes"
+    ]
   }
 ]
-
-
-

@@ -21,7 +21,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  
 }
 
 .nav_bar .nav_items {
@@ -193,12 +193,18 @@ a {
   border: 2px solid rgb(186, 233, 48);
   border-radius: 10px;
  }
+ .card-text{
+  font-size: 16px;
+  color: white;
+  font-weight: 120;
+ }
 
  /* Experience */
 
 .experience {
   padding: 100px 15px;
 }
+
 
 .timeline-items {
   max-width: 1200px;
@@ -230,7 +236,7 @@ a {
 
 .timeline-item:nth-child(odd) {
   padding-right: calc(50% + 30px);
-  text-align: right;
+  
 }
 
 .timeline-item:nth-child(even) {
@@ -249,17 +255,29 @@ a {
   top: 10px;
 }
 
-.timeline-date {
+.timeline-date{
   font-size: 20px;
   font-weight: 800;
   color: white;
   margin: 0px 0 20px;
+  text-align: left;
+}
+
+
+.timeline-item:nth-child(odd) .timeline-date {
+  order: 1;
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) .timeline-date {
+  order: -1;
+  text-align: left;
 }
 
 .timeline-content {
   background: rgb(19, 18, 25);
   /* border: 3px solid rgb(186, 233, 48); */
-  padding: 30px 50px;
+  padding: 20px;
   border-radius: 10px;
   cursor: pointer;
   height: 150px;
@@ -274,15 +292,17 @@ a {
 }
 
 .timeline-content h3 {
-  font-size: 20px;
-  color: white;
+  font-size: 22px;
+  color: rgb(186, 233, 48);
   margin: 0 0 10px;
   font-weight: 500;
+  padding-bottom: 6px;
+  padding-top: 0px;
 }
 
-.timeline-content p {
+.timeline-content h6{
   font-size: 16px;
   color: white;
-  line-height: 22px;
-  font-weight: 300;
+  font-weight: 120;
+ 
 }
