@@ -46,7 +46,7 @@ a {
 
 .home .left {
   
-  width: 600px;
+  width: 800px;
   text-align: center;
   padding: 30px;
  
@@ -305,4 +305,36 @@ a {
   color: white;
   font-weight: 120;
  
+}
+
+
+
+/* Contact */
+
+.contact-icon {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icon .items {
+  background-color: rgb(19, 18, 25);
+  margin: 20px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 3px solid rgb(186, 233, 48);
+}
+
+.contact-icon .items:hover {
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+}
+
+.contact-icon .items .icons {
+  font-size: 2rem;
 }

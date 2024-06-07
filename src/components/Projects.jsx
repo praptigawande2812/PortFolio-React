@@ -13,7 +13,9 @@ const Projects = () => {
                   key={data.id}
                   className="project my-3 col-md-4 col-sm-6 col-lg-3 mx-3"
                 >
-                  <div className="card" style={{ width: "18rem" }}>
+                  <div className="card" style={{ width: "18rem" }}
+                  data-aos="flip-left"
+                  data-aos-duration="1000">
                     <div className="img p-3">
                       <img src={data.imageSrc} className="pimg" alt="..." />
                     </div>
