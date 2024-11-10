@@ -12,8 +12,8 @@
     "imageSrc": "skills/java.png"
   },
   {
-    "title": "DSA",
-    "imageSrc": "skills/dsa.png"
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
   },
   {
     "title": "HTML",
@@ -24,14 +24,37 @@
     "imageSrc": "skills/css.png"
   },
   {
-    "title": "JavaScript",
-    "imageSrc": "skills/javascript.png"
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
   },
   {
-    "title": "React",
+    "title": "Express.js",
+    "imageSrc": "skills/express.png"
+  },
+  {
+    "title": "React.js",
     "imageSrc": "skills/react.png"
   },
-
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "DSA",
+    "imageSrc": "skills/dsa.png"
+  },
+  {
+    "title": "OS",
+    "imageSrc": "skills/os.png"
+  },
+  {
+    "title": "DB",
+    "imageSrc": "skills/db.png"
+  },
+  {
+    "title": "CN",
+    "imageSrc": "skills/cn.png"
+  },
   {
     "title": "Docker",
     "imageSrc": "skills/docker.png"

@@ -1,12 +1,23 @@
 [
   {
     "id": 1,
-    "role": "Vice-President Of SAIT",
+    "role": "Vice-President at SAIT",
     "date": "April 2024",
     "endDate": "Present",
     "experiences": [
-      "Aa s VP directed club activites and meetings.",
+      "Oraganised and Managed Techfusion 2k24(Megaevent of SAIT)",
+      "Directed club activites and meetings.",
       "Assisted in the development and implementation of club's strategic goals."
+    ]
+  },
+  {
+    "id": 1,
+    "role": "Public Relation Officer at IEEE Students' Chapter",
+    "date": "April 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Participated and Coordinated in intra-Campus and inter-Campus publicity.",
+      "Oraganised various events under club"
     ]
   },
   {

@@ -2,33 +2,17 @@
   {
     "key": 1,
     "title": "React Portfolio Website",
-    "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
+    "imageSrc": "https://tse4.mm.bing.net/th?id=OIP.WCoe1iuAopdynvijZi3PQAHaET&pid=Api&P=0&h=180",
     "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
+    "demo": "https://myportfolio-2024-react.netlify.app/",
     "source": "https://github.com/praptigawande2812/PortFolio-React.git"
   },
   {
-    "key": 2,
-    "title": "Notification App",
-    "imageSrc": "https://cdn.pixabay.com/photo/2017/05/02/15/30/streets-2278471_640.jpg",
-    "description": "This is a project made with complete Flutter.",
-    "demo": "https://www.example.com",
-    "source": "https://github.com/praptigawande2812/NoticeBoard_MiniProject1.git"
-  },
-  {
     "key": 3,
-    "title": "React Recipe",
-    "imageSrc": "https://cdn.pixabay.com/photo/2016/08/16/17/12/skyscrapers-1598418_640.jpg",
-    "description": "This is a project made with complete React js.",
+    "title": "GO FOOD",
+    "imageSrc": "https://tse3.mm.bing.net/th?id=OIP.zNsLu3Hwfbi3vsU4SaWBpQHaHa&pid=Api&P=0&h=180",
+    "description": "This is a project made with MERN.",
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "key": 4,
-    "title": "React Firebase App",
-    "imageSrc": "https://cdn.pixabay.com/photo/2021/03/02/01/07/cyberpunk-6061251_640.jpg",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/praptigawande2812/GoFood.git"
   }
 ]

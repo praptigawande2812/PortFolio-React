@@ -7,10 +7,11 @@ const Home = () => {
     <>
       <div className="container home" id="home">
         <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
-          <h1 className="title">Hello,I am Prapti</h1>
+          <h1 className="title">Prapti Gawande</h1>
           <p className="description">
-          As a second-year IT undergrad, I possess a strong foundation in computer science fundamentals and
-          am eager to apply my growing skills to tackle real-world challenges in technology
+          Third-year IT Engineering undergraduate with a strong foundation in computer science, eager to
+ apply software development skills to solve real-world technology challenges. Proactive learner
+ committed to continuous technical growth.
           </p>
           <a
             href={pdf}
