@@ -1,18 +1,23 @@
 [
   {
     "key": 1,
+    "title": "CPU Scheduling Algorithm",
+    "imageSrc": "https://tse1.mm.bing.net/th?id=OIP.BRP8grnuhnBvyJNhKdOGfAHaEK&pid=Api&P=0&h=180",
+    "description": "An implementation of various CPU scheduling algorithms using C++. This project focuses on simulating real-world OS functionalities such as process management and scheduling to enhance understanding of how operating systems manage multitasking efficiently.",
+    "source": "https://github.com/praptigawande2812/CPU-Scheduling-Algo.git"
+  },
+  {
+    "key": 2,
     "title": "React Portfolio Website",
     "imageSrc": "https://tse4.mm.bing.net/th?id=OIP.WCoe1iuAopdynvijZi3PQAHaET&pid=Api&P=0&h=180",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://myportfolio-2024-react.netlify.app/",
+    "description": "A visually appealing and fully responsive personal portfolio website built using React.js. This project showcases modern web development practices,includes smooth navigation, interactive elements and dynamic content rendering to highlight skills, experience, and projects.",
     "source": "https://github.com/praptigawande2812/PortFolio-React.git"
   },
   {
     "key": 3,
     "title": "GO FOOD",
     "imageSrc": "https://tse3.mm.bing.net/th?id=OIP.zNsLu3Hwfbi3vsU4SaWBpQHaHa&pid=Api&P=0&h=180",
-    "description": "This is a project made with MERN.",
-    "demo": "https://www.example.com",
+    "description": "A comprehensive online food ordering system built using the MERN stack.This project allows users to browse menus, place orders, and manage their cart seamlessly. It features a user-friendly interface, dynamic data handling, and efficient backend integration.",
     "source": "https://github.com/praptigawande2812/GoFood.git"
   }
 ]

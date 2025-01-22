@@ -1,6 +1,6 @@
 
 body {
-  background-color: rgb(11, 26, 51);
+  background-color: rgb(4, 18, 45);
   color: white;
 }
 .heading{
@@ -56,13 +56,6 @@ a {
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 }
 
 .description {
@@ -76,50 +69,14 @@ a {
   justify-content: center;
   align-items: center;
   padding-right: 80px;
-  /* background-color: yellow; */
-  /* height: 350px;
-  width: 350px; */
 }
 
 .home .right .img img {
-  height: 270px;
-  width: 270px;
-  border: 5px solid yellow;
+  height: 350px;
+  width: 350px;
+  border: 5px solid rgb(7, 7, 6);
   
   border-radius: 100%;
-  animation-name: superman;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes superman {
-  0% {
-    border-color: blue;
-    transform: translate(0, 0px);
-    box-shadow: 10px 10px 100px 50px blue;
-  }
-
-  25% {
-    border-color: rgb(239, 244, 11);
-    box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
-  }
-
-  50% {
-    border-color: rgb(12, 12, 199);
-    transform: translate(0, 10px);
-    box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
-  }
-
-  75% {
-    border-color: rgb(31, 162, 77);
-    box-shadow: 10px 10px 100px 50px rgb(31, 162, 77);
-  }
-
-  100% {
-    border-color: rgb(50, 55, 205);
-    transform: translate(0, -0px);
-    box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
-  }
 }
 
 /* Skills */
@@ -133,7 +90,6 @@ a {
   align-items: center;
   flex-wrap: wrap;
   margin:auto;
-  /* width: 800px; */
 }
 
 .skills .items .item{
@@ -144,19 +100,17 @@ a {
   text-align: center;
   padding: 20px;
   border-radius: 10px;
-  /* border:1px solid rgb(10, 175, 19); */
-  /* box-shadow: var(--box-shadow); */
  
   background-color: rgb(19, 18, 25);
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), 
+  box-shadow: 
                 -5px -5px 15px rgba(255, 255, 255, 0.5);
     /* transition: transform 0.3s, box-shadow 0.3s; */
-    
+    /* minus for left and up shadow */
 }
 
 .skills .items .item:hover {
   transform: translateY(-5px);
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), 
+  box-shadow:
               -5px -5px 15px rgba(186, 233, 48, 0.5);
 }
 
@@ -175,10 +129,9 @@ a {
 .card{
   background-color: rgb(19, 18, 25);
   color:white;
-  height: 400px;
+  height: 500px;
   background-color: rgb(19, 18, 25);
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), 
-                -5px -5px 15px rgba(255, 255, 255, 0.5);
+  box-shadow:-5px -5px 15px rgba(255, 255, 255, 0.5);
 }
 
 .card .img{
@@ -188,8 +141,8 @@ a {
   
 }
 .card .img .pimg{
-  width: 250px;
-  height: 200px;
+  width: 200px;
+  height: 150px;
  
   border: 2px solid rgb(186, 233, 48);
   border-radius: 10px;
@@ -216,6 +169,7 @@ a {
 }
 
 .timeline-items::before {
+  /* line */
   content: "";
   position: absolute;
   width: 5px;
@@ -261,34 +215,30 @@ a {
   font-weight: 800;
   color: white;
   margin: 0px 0 20px;
-  text-align: left;
 }
 
 
 .timeline-item:nth-child(odd) .timeline-date {
-  order: 1;
   text-align: right;
 }
 
 .timeline-item:nth-child(even) .timeline-date {
-  order: -1;
   text-align: left;
 }
 
 .timeline-content {
   background: rgb(19, 18, 25);
-  /* border: 3px solid rgb(186, 233, 48); */
   padding: 20px;
   border-radius: 10px;
   cursor: pointer;
   height: 150px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), 
+  box-shadow:
   -5px -5px 15px rgba(255, 255, 255, 0.5);
 }
 
 .timeline-content:hover{
     transform: scale(1.02);
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), 
+    box-shadow: 
               -5px -5px 15px rgba(186, 233, 48, 0.5);
 }
 
@@ -333,7 +283,6 @@ a {
 
 .contact-icon .items:hover {
   background-color: var(--bg-color);
-  box-shadow: var(--box-shadow);
 }
 
 .contact-icon .items .icons {
