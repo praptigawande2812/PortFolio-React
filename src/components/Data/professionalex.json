@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "role": "Summer Intern at Siemens DISW, Pune",
+      "date": "June 2025",
+      "endDate": "July 2025",
+      "experiences": [
+        {
+          "title": "Project 1: Component Rendering Tracker",
+          "details": "Developed an automation tool to capture component rendering data across baselines for detecting client-side performance regressions in JavaScript execution. Enabled non-technical developers to identify and analyze rendering issues through automated regression detection and root cause analysis."
+        },
+        {
+          "title": "Project 2: SOA Count Tracker",
+          "details": "Implemented a system to automate SOA (Service-Oriented Architecture) call count analysis, identifying jittery behavior and server interaction regressions. The tool allows user-defined SOA configurations and helps classify use cases based on call patterns."
+        }
+      ]
+    }
+  ]

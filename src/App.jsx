@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import ProfessionalEx from "./components/ProfessionalEx";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Aos from "aos";
@@ -20,6 +21,7 @@ const App = () => {
         <Home />
         <Skills/>
         <Projects/>
+        <ProfessionalEx/>
         <Experience/>
         <Contact/>
       </div>

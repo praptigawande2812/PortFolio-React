@@ -15,9 +15,9 @@
   },
   {
     "key": 3,
-    "title": "GO FOOD",
-    "imageSrc": "https://tse3.mm.bing.net/th?id=OIP.zNsLu3Hwfbi3vsU4SaWBpQHaHa&pid=Api&P=0&h=180",
-    "description": "A comprehensive online food ordering system built using the MERN stack.This project allows users to browse menus, place orders, and manage their cart seamlessly. It features a user-friendly interface, dynamic data handling, and efficient backend integration.",
-    "source": "https://github.com/praptigawande2812/GoFood.git"
+    "title": "Hostel Management",
+    "imageSrc": "https://tse2.mm.bing.net/th?id=OIP.5cU9rQ63Yil1FSKMUOGq1gHaFj&pid=Api&P=0&h=180",
+    "description": "A streamlined MERN stack-based hostel management system with an admin panel for student registration, attendance, complaints, leave, invoices, and suggestions. The student panel enables attendance tracking, leave requests, invoice access, and feedback submission.",
+    "source": "https://github.com/praptigawande2812/Hostel.git"
   }
 ]
