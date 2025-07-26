@@ -9,7 +9,7 @@ const Home = () => {
         <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
           <h1 className="title">Prapti Gawande</h1>
           <p className="description">
-          Third-year IT Engineering undergraduate with a strong foundation in computer science, eager to
+          Final-year IT Engineering undergraduate with a strong foundation in computer science, eager to
  apply software development skills to solve real-world technology challenges. Proactive learner
  committed to continuous technical growth.
           </p>
